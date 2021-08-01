@@ -3,7 +3,7 @@ class CreateUsers < ActiveRecord::Migration[6.1]
     create_table :users do |t|
       t.string :nickname
       t.integer :kind
-      t.integer :leve
+      t.integer :level
 
       t.timestamps
     end
